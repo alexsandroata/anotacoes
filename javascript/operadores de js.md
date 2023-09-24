@@ -53,3 +53,45 @@ o simbolo igual sozinho significa "receber"
     var o = 3
     o++ //incremento
 ~~~
+
+## Operações relacionais
+
+~~~javascript
+    5 > 2 //TRUE maior
+    7 < 4 //FALSE menor
+    8 >= 8 //TRUE maior ou igual
+    9 <= 7 //FALSE menor ou igual
+    5 == 5 //TRUE igual
+    4 != 4 //FALSE diferente
+~~~
+
+ Relacionais com identidade
+
+~~~javascript
+    5 == 5 //TRUE
+    5 == '5' //TRUE
+    5 === 5 //FALSE (identidade é igual)
+~~~
+
+## Operações logicos
+
+~~~javascript
+    ! //negação
+    && //conjunção
+    || //dijunção
+~~~
+
+## Operações ternarios
+
+~~~javascript
+    teste ? true : false
+~~~
+
+exemplo
+
+~~~javascript
+    x = 8
+    res = x + 1
+    res > 8 ? 'Aprovado' : 'reprovado' //variavel res recebe aprovado
+~~~
+
